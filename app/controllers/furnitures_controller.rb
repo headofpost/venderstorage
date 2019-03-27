@@ -52,7 +52,7 @@ class FurnituresController < ApplicationController
     
     private
         def furniture_params
-            params.require(:furniture).permit(:name, :description, :image, :A2, :BC2, :B2F, :BU50, :BU60, :ABU1, :Fjellager, :Stollager)
+            params.require(:furniture).permit(:name, :description, :image, :A2, :BC2, :B2F, :BU50, :BU60, :ABU1, :Fjellager, :Stollager, :VIP, :F3, :RekvisitaEU1)
         end
     
 end
