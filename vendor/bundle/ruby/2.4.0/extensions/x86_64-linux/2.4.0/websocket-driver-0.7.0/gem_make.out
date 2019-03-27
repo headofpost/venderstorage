@@ -1,0 +1,15 @@
+current directory: /home/gorilla_server/code/storageinventory/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+/usr/bin/ruby2.4 -I /usr/local/lib/site_ruby/2.4.0 -r ./siteconf20190326-12012-12ugmpl.rb extconf.rb
+creating Makefile
+
+current directory: /home/gorilla_server/code/storageinventory/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/gorilla_server/code/storageinventory/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/gorilla_server/code/storageinventory/vendor/bundle/ruby/2.4.0/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20190326-12012-38mbz1
