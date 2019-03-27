@@ -10,6 +10,9 @@ class CreateFurnitures < ActiveRecord::Migration[5.2]
       t.integer :ABU1
       t.integer :Fjellager
       t.integer :Stollager
+      t.integer :VIP
+      t.integer :F3
+      t.integer :RekvisitaEU1
       t.string :image
       t.text :description
       t.integer :storage_count
